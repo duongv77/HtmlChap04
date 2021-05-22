@@ -1,0 +1,44 @@
+body{
+        margin: 0;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+.title{
+    color: #ff0000;
+    font-size: 50px;
+}
+a{
+    color: sandybrown;
+}
+.column{
+    border: 1px solid rgba(116, 116, 116, 0.9);
+    margin-left: 10px;
+    width: 250px;
+    padding: 10px;
+}
+.logo{
+    height: 800px;
+    background-color: rgb(167, 167, 167);
+    background-image: url("logo.jpg");
+    background-size: cover;
+}
+.card{
+    margin: 10px;
+}
+.row{
+    width: 100%;
+    display: grid; /*Bật tính năng lưới*/
+    grid-template-columns: 1fr 1fr 1fr; /*3 cột tỉ lệ 1-1-1*/
+    grid-gap: 20px;/* khoảng cách giữa các cột*/
+}
+.img-width{
+    max-width: 100%;
+}
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+}
